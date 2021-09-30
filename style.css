@@ -55,11 +55,7 @@ input {
   color: #fff;
 }
 
-input:focus {
-  border-color: #ffb800;
-}
-
-input:hover {
+input:focus, input:hover, textarea:focus, textarea:hover {
   border-color: #ffb800;
 }
 
